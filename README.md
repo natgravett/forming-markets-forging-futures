@@ -25,9 +25,9 @@ This paper examines how public procurement is framed and operationalised as a le
 The results show that procurement is increasingly framed strategically within EU industrial policy discourse, particularly in relation to decarbonisation, competitiveness and industrial resilience. However, substantial governance translation gaps emerge across governance levels, and operational uptake of sustainability-oriented procurement approaches remains comparatively limited. The findings suggest that the primary bottleneck in developing lead markets for low-emission steel lies less in the absence of policy ambition than in uneven governance translation, limited institutional capacity and weak implementation infrastructures.
 
 
-**Data Sources
+**Data Sources**
 
-Procurement Data**
+**Procurement Data**
 
 
 Procurement data were obtained from the European Union's Tenders Electronic Daily (TED) Open Data portal:
