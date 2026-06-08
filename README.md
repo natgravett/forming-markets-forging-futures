@@ -6,7 +6,7 @@ By Natalie Gravett-Foyn & Carl Dalhammar, IIIEE, Lund University
 
 You will find two R files related to the paper.
 
-These have been created by NGF and then 'cleaned' by ChatGPT (Lund University version), to make the code more concise and ensure there are section separators and labels to improve readability. 
+These have been created by NGF and then cleaned with ChatGPT (Lund University version), to make the code more concise and ensure there are section separators and labels to improve readability. 
 
 Please read the methodology in the article for more information.
 
@@ -17,6 +17,14 @@ Contact natalie.gravett-foyn@iiiee.lu.se for queries or discussion.
 gs_gpp_docanalysis.R - R file related to the qualitative and quantitative document analysis
 
 gs_gpp_tedanalysis.R - R file related to the TED Contract Award Notice analysis
+
+
+**CITATION** 
+
+Please cite the code as following: Gravett-Foyn, N. (2026). natgravett/forming-markets-forging-futures: Article release_2 (eceee). Zenodo. https://doi.org/10.5281/zenodo.20590730
+
+If citing the wider methodology/paper, please cite the paper.
+
 
 **ABSTRACT**
 
@@ -35,7 +43,7 @@ https://data.europa.eu/data/datasets/ted-csv?locale=en
 The analysis uses Contract Award Notice (CAN) data covering the period 2010–2023. The original TED datasets were downloaded as CSV files and subsequently filtered to focus on procurement activity within steel-relevant sectors (construction, transport and defence). Further processing steps are documented in the accompanying R scripts.
 
 
-**R Packages**
+**R PACKAGES**
 
 Document Analysis (`gs_gpp_docanalysis.R`)
 
