@@ -23,3 +23,73 @@ gs_gpp_tedanalysis.R - R file related to the TED Contract Award Notice analysis
 Steel is a strategic material for Europe, embedded in critical sectors such as construction, transport and defence, yet responsible for approximately 5% of EU CO₂ emissions. While technological pathways for low-emission steel are advancing, their large-scale deployment depends on credible demand signals capable of supporting early market formation and reducing investment uncertainty. In response, EU industrial policy increasingly positions public procurement as a strategic demand-side instrument for industrial decarbonisation and lead market creation. However, the extent to which these ambitions are translated into national policy frameworks and operational procurement practice remains unclear.
 This paper examines how public procurement is framed and operationalised as a lead market instrument for low-emission steel across multiple governance levels within the European Union. Adopting a multi-level governance approach, the study conceptualises the governance chain through three interconnected levels: 1) the EU as policy signaller; 2) Member States as policy messengers; and 3) public buyers as implementers. The analysis combines quantitative and qualitative policy document analysis with Contract Award Notice (CAN) analysis from the EU Tenders Electronic Daily (TED) database, focusing on Sweden, Germany and the Netherlands.
 The results show that procurement is increasingly framed strategically within EU industrial policy discourse, particularly in relation to decarbonisation, competitiveness and industrial resilience. However, substantial governance translation gaps emerge across governance levels, and operational uptake of sustainability-oriented procurement approaches remains comparatively limited. The findings suggest that the primary bottleneck in developing lead markets for low-emission steel lies less in the absence of policy ambition than in uneven governance translation, limited institutional capacity and weak implementation infrastructures.
+
+
+**R Packages**
+
+Document Analysis (`gs_gpp_docanalysis.R`)
+
+The document analysis script relies on the following packages:
+
+```r
+library(readtext)
+library(pdftools)
+library(quanteda)
+library(quanteda.textstats)
+library(stringr)
+library(dplyr)
+library(tidyr)
+library(readr)
+library(ggplot2)
+library(ggwordcloud)
+library(fmsb)
+library(viridis)
+```
+
+Package purposes:
+
+| Package            | Purpose                           |
+| ------------------ | --------------------------------- |
+| readtext           | Import policy documents           |
+| pdftools           | Extract text from PDF files       |
+| quanteda           | Corpus creation and text analysis |
+| quanteda.textstats | Frequency and keyness analysis    |
+| stringr            | Text processing and cleaning      |
+| dplyr              | Data manipulation                 |
+| tidyr              | Data reshaping                    |
+| readr              | Reading and exporting data        |
+| ggplot2            | Visualisation                     |
+| ggwordcloud        | Word cloud visualisations         |
+| fmsb               | Radar/spider charts               |
+| viridis            | Colour scales                     |
+
+---
+
+TED Procurement Analysis (`gs_gpp_tedanalysis.R`)
+
+The TED procurement analysis script relies on the following packages:
+
+```r
+library(dplyr)
+library(tidyr)
+library(readr)
+library(stringr)
+library(lubridate)
+library(ggplot2)
+library(viridis)
+```
+
+Package purposes:
+
+| Package   | Purpose                                |
+| --------- | -------------------------------------- |
+| dplyr     | Filtering and aggregation of TED data  |
+| tidyr     | Reshaping procurement datasets         |
+| readr     | Importing TED datasets                 |
+| stringr   | Keyword matching and text processing   |
+| lubridate | Date handling and time-series analysis |
+| ggplot2   | Visualisation                          |
+| viridis   | Colour scales                          |
+
+```
+```
