@@ -1,7 +1,5 @@
 # forming-markets-forging-futures
-Code associated with article "Forming markets, forging futures: Public procurement and lead markets for European low-emission steel"
-
-By Natalie Gravett-Foyn & Carl Dalhammar, IIIEE, Lund University
+Code associated with article "Forming markets, forging futures: Public procurement and lead markets for European low-emission steel" by Natalie Gravett-Foyn & Carl Dalhammar, IIIEE, Lund University
 
 
 You will find two R files related to the paper.
