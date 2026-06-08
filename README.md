@@ -17,12 +17,6 @@ gs_gpp_docanalysis.R - R file related to the qualitative and quantitative docume
 gs_gpp_tedanalysis.R - R file related to the TED Contract Award Notice analysis
 
 
-**CITATION** 
-
-Please cite the code as following: Gravett-Foyn, N. (2026). natgravett/forming-markets-forging-futures: Article release_2 (eceee). Zenodo. https://doi.org/10.5281/zenodo.20590730
-
-If citing the wider methodology/paper, please cite the paper.
-
 
 **ABSTRACT**
 
